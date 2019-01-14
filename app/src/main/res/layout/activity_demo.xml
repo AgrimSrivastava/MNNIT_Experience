@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#E1F5Fe"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="cse_course"
+                android:src="@drawable/csemt"
+                android:contentDescription="TODO" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="it_course"
+                android:src="@drawable/itaadiagrim"
+                android:contentDescription="TODO" />
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="ece_course"
+                android:contentDescription="TODO" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="electrical_course"
+                android:src="@drawable/electrical"
+                android:contentDescription="TODO" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="mechanical_course"
+                android:src="@drawable/mechenical"
+                android:contentDescription="TODO" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="chemical_course"
+                android:src="@drawable/chemical"
+                android:contentDescription="TODO" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="production_course"
+
+                android:layout_weight="1"
+                android:src="@drawable/production"
+                android:contentDescription="TODO" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="biotech_course"
+                android:layout_weight="1"
+                android:src="@drawable/biotech"
+                android:contentDescription="TODO" />
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="civil_course"
+
+                android:layout_weight="1"
+                android:src="@drawable/civil"
+                android:contentDescription="TODO" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_launcher_background"
+                android:contentDescription="TODO" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

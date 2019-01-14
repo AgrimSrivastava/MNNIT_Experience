@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="35dp"
+        android:paddingBottom="30sp"
+        android:textAlignment="center"
+        android:text="MNNIT_Experience"
+        android:textColor="#fff"
+        android:textSize="27sp"
+        android:textStyle="bold|italic"
+        />
+
+
+    <TextView
+
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+     android:layout_marginLeft="17dp"
+        android:text="Email Address"
+        android:textColor="#fff"
+        android:textSize="19sp"
+        />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="8dp"
+        android:background="#fff"
+        android:hint="Enter your email address"
+        android:inputType="textEmailAddress"
+        android:textColor="#000"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="15dp"
+        android:text="Enter your password"
+        android:textColor="#fff"
+        android:textSize="19sp"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/et2"
+        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="8dp"
+        android:background="#fff"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:textColor="#000"
+        />
+
+
+    <CheckBox
+        android:id="@+id/cb_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_marginTop="37dp"
+        android:layout_marginLeft="17dp"
+        android:background="#fff"
+        android:text="Admin   "
+        android:textSize="15sp"
+        />
+
+
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:layout_margin="30dp">
+    <Button
+        android:id="@+id/btn_insert"
+        android:layout_width="181dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:onClick="LogIn"
+        android:text="LogIn"
+        android:textColor="#000"
+         />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="forgotPassword1"
+
+            android:text="Forgot password?"
+            android:layout_marginBottom="15dp"
+
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick="RegisterT"
+            android:text="Need an account?"
+
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

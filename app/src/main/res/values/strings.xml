@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">MNNIT ExPERIENCE</string>
+    <string name="email_address">Email Address</string>
+    <string name="title_activity_events">Events</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="title_activity_college_events">college_events</string>
+    <string name="course_feedback">Course Feedback</string>
+    <string name="view_transcript">View Transcript</string>
+    <string name="challan_status">Challan Status</string>
+    <string-array name="year">
+        <item>
+            FirstYear
+        </item>
+        <item>
+            SecondYear
+        </item>
+        <item>
+            ThirdYear
+        </item>
+        <item>
+            FourthYear
+        </item>
+    </string-array>
+
+    <string-array name="branch">
+        <item>
+            IT
+        </item>
+        <item>
+            CS
+        </item>
+        <item>
+            Chemical
+        </item>
+        <item>
+            Civil
+        </item>
+        <item>
+            Electrical
+        </item>
+        <item>
+            Mechanical
+        </item>
+        <item>
+            Production
+        </item>
+    </string-array>
+
+    <string-array name="faculty">
+        <item>Prof.M.M.Gore</item>
+        <item>Prof. Suneeta Agarwal</item>
+        <item>Prof. R.S.Yadav </item>
+        <item>Prof. Neeraj Tyagi</item>
+        <item>Prof. D.S. Kushwaha</item>
+        <item>Prof.A. K. Singh </item>
+        <item>Prof. D.K.Yadav </item>
+        <item>Mr. Rajesh Tripathi </item>
+
+    </string-array>
+</resources>

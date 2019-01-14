@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "691636226582",
+    "firebase_url": "https://agrimaapp.firebaseio.com",
+    "project_id": "agrimaapp",
+    "storage_bucket": "agrimaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691636226582:android:412a4201684ee486",
+        "android_client_info": {
+          "package_name": "com.myapp.theagrim.agrimaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691636226582-i87lubtut00fk8a2oj56og1t04se8doq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myapp.theagrim.agrimaapp",
+            "certificate_hash": "07d7cd7198e6cd322c85f6b27f1e5409ea48f3fa"
+          }
+        },
+        {
+          "client_id": "691636226582-p0kse9se1231spv7qr1dl9s66tibnrs1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9l5PhI9oOkzT9nfRRJOc3UAoIYq5PhC8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691636226582-p0kse9se1231spv7qr1dl9s66tibnrs1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

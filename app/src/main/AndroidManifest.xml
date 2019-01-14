@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.myapp.theagrim.agrimaapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Navigation"
+            android:label="@string/title_activity_events"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".attendance" />
+        <activity android:name=".Time_table" />
+        <activity
+            android:name=".AdminLogin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminPage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GlobalWall"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProfilePage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".StudentProfile" />
+        <activity android:name=".coursePage" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".attendanceCharts" />
+        <activity android:name=".pieChart" />
+
+        <service
+            android:name=".AttendanceManager"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".SubEventsInfo" />
+        <activity android:name=".Cyberquest" />
+        <activity android:name=".PowerSerge" />
+        <activity android:name=".Kreedomania" />
+        <activity android:name=".Eleectromania" />
+        <activity android:name=".Genesis" />
+        <activity android:name=".Rasayan" />
+        <activity android:name=".Nirman" />
+        <activity
+            android:name=".Search_faculty"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Avishkar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Mechro" />
+
+        <receiver android:name=".MyBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".TempSplash"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UpdateProfile" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".Registration"></activity>
+    </application>
+
+</manifest>

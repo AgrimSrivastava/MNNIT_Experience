@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/notification1"
+    android:weightSum="10"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:layout_centerInParent="true"
+            android:textStyle="bold|italic"
+            android:text="RASAYAN"
+            android:textColor="#fff"/>
+
+
+    </RelativeLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_weight="8"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:padding="14dp"
+        android:columnCount="2"
+        android:rowCount="4"
+        android:layout_height="0dp">
+
+        <!-- Row 1 -->
+        <!-- column 1-->
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+
+
+            <LinearLayout
+                android:id="@+id/rasayanid1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="Aqua Rocchetta"
+                    android:layout_width="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <!-- column 2-->
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+
+
+            <LinearLayout
+                android:id="@+id/rasayanid2"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="Chem e Dextrous"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- Row 2 -->
+        <!-- column 1-->
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+
+
+            <LinearLayout
+                android:id="@+id/rasayanid3"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+android:text="Chem craft"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <!-- column 2-->
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+
+
+            <LinearLayout
+                android:id="@+id/rasayanid4"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="Quiziosity"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- Row 3 -->
+        <!-- column 1-->
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+
+
+            <LinearLayout
+                android:id="@+id/rasayanid5"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="Simulazione"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <!-- column 2-->
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+
+
+            <LinearLayout
+                android:id="@+id/rasayanid6"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="Vision"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+    </GridLayout>
+
+
+
+</LinearLayout>

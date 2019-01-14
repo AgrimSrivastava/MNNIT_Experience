@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        tools:context=".attendence">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="#800000"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:background="#B22222"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="you have no short attendence in any subject"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="#B22222"
+                android:textColor="#fff"
+                android:layout_alignParentBottom="true"
+                android:text="attendence charts"
+                android:onClick="gotochart"
+                android:textSize="10dp"
+                android:id="@+id/b1"
+                />
+
+
+
+
+        </RelativeLayout>
+
+        //upper part done
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:elevation="10dp"
+            >
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:background="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:text="subject 1"
+                android:textColor="#DC143C"
+                android:textSize="20sp"
+                android:paddingLeft="5dp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checking"
+                android:background="#DC143C"
+                android:layout_weight="1"
+                android:text="" />
+        </LinearLayout>
+
+        //1st sub
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:elevation="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:textSize="20sp"
+                android:elevation="10dp"
+                android:textColor="#DC143C"
+                android:layout_weight="9"
+                android:text="Subject 2" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checking"
+                android:layout_weight="1"
+                android:background="#DC143C"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+
+            android:layout_margin="10dp"
+            android:elevation="10dp"
+            >
+
+
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:id="@+id/textView3"
+                android:background="#fff"
+                android:textColor="#DC143C"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:textSize="20sp"
+                android:elevation="10dp"
+                android:text="Subject 3" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DC143C"
+                android:layout_weight="1"
+                android:onClick="checking"
+                android:text="" />
+        </LinearLayout>
+
+        //2nd sub
+
+
+        //3rd sub
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:elevation="10dp"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:background="#fff"
+                android:textColor="#DC143C"
+                android:textSize="20sp"
+                android:paddingLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:text="Subject 4" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DC143C"
+                android:layout_weight="1"
+                android:onClick="checking"
+                android:text="" />
+        </LinearLayout>
+
+        //4th sub
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:elevation="10dp"
+            android:layout_margin="10dp"
+            >
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:background="#fff"
+                android:textSize="20sp"
+                android:textColor="#DC143C"
+                android:paddingLeft="5dp"
+                android:text="Subject 5" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DC143C"
+                android:layout_weight="1"
+                android:onClick="checking"
+                android:text="" />
+        </LinearLayout>
+
+        //5th sub
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:elevation="10dp"
+            android:layout_margin="10dp"
+            >
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:background="#fff"
+                android:textColor="#DC143C"
+                android:textSize="20sp"
+                android:paddingLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:text="Subject 5" />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:onClick="checking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DC143C"
+                android:layout_weight="1"
+                android:text="" />
+        </LinearLayout>
+
+        //6th sub
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:elevation="10dp"
+            >
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:textSize="20sp"
+                android:textColor="#DC143C"
+                android:paddingLeft="5dp"
+                android:background="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:text="Subject 6" />
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checking"
+                android:background="#DC143C"
+                android:layout_weight="1"
+                android:text="" />
+        </LinearLayout>
+
+
+        //7th sub
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:onClick="Attendance"
+            android:background="#DC143C"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_margin="10dp"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
